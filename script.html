@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تفاصيل السكريبت - Rtflix Xiters</title>
+    <meta name="description" content="تفاصيل السكريبت - Rtflix Xiters">
+    <meta property="og:title" content="Rtflix Xiters">
+    <meta name="twitter:title" content="Rtflix Xiters">
+
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react@18/umd/react.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/@babel/standalone/babel.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://resource.trickle.so/vendor_lib/unpkg/lucide-static@0.516.0/font/lucide.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+
+    <style type="text/tailwindcss">
+    :root {
+        --bg-primary: #000000;
+        --bg-secondary: #0a0a0a;
+        --bg-card: #111111;
+        --accent: #ffffff;
+        --text-primary: #ffffff;
+        --text-secondary: #666666;
+        --border-color: #222222;
+    }
+    @layer base { body { font-family: 'Cairo', sans-serif; background: var(--bg-primary); color: var(--text-primary); } }
+    /* Hide Trickle branding */
+    a[href*="trickle.so"], a[href*="trickle.host"], div[class*="trickle"], [data-trickle] { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; }
+    
+
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel" src="components/Header.js"></script>
+    <script type="text/babel" src="components/Footer.js"></script>
+    <script type="text/babel" src="utils/statsManager.js"></script>
+    <script type="text/babel" src="script-app.js"></script>
+</body>
+</html>
