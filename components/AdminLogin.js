@@ -2,7 +2,7 @@ function AdminLogin({ onLogin }) {
   try {
     const [password, setPassword] = React.useState('');
     const [error, setError] = React.useState('');
-    const ADMIN_PASSWORD = '8896';
+    const ADMIN_PASSWORD = 'developer';
 
     const handleSubmit = (e) => {
       e.preventDefault();
