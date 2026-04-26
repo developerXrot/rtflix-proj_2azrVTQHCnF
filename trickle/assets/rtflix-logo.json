@@ -1,0 +1,110 @@
+<!-- ========================= -->
+<!-- Rtflix Xiters Brand Block -->
+<!-- Header + Footer Premium UI -->
+<!-- ========================= -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rtflix Xiters</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black text-white min-h-screen flex flex-col justify-between">
+
+  <!-- ================= HEADER ================= -->
+  <header class="w-full border-b border-white/10 bg-black/80 backdrop-blur-xl px-6 py-4">
+    <div class="max-w-7xl mx-auto flex items-center justify-between">
+
+      <!-- Brand -->
+      <div class="flex items-center gap-3">
+        <div class="relative">
+          <img 
+            src="https://pps.whatsapp.net/m1/v/t24/An8i16Y27DJg-P4bdPot8gYg-r-uvoIcOec-Pijh6W660_tR-hUmtbG8t7qw1BcqO9JOIHxzHNOWblmMLIr-_oLNuGlqcKyvRHOR1iCYrCW1ktPUpko7bmR6fMW_qeKYlqIffTwDlS7y-qlIXyc?stp=dst-jpg_tt6&ccb=10-5&oh=01_Q5Aa3QFETy6xozKB4UKlbwTpTuBKeXj88U4BFe0uNBMpGXciKw&oe=694C59CD&_nc_sid=5e03e0&_nc_cat=103"
+            alt="Rtflix Xiters Logo"
+            class="w-11 h-11 rounded-2xl object-cover border border-white/10 shadow-lg relative z-10"
+          />
+          
+          <!-- Glow -->
+          <div class="absolute inset-0 rounded-2xl bg-purple-500/20 blur-xl"></div>
+
+          <!-- Status Dot -->
+          <div class="absolute -bottom-1 -right-1 w-3 h-3 bg-emerald-400 rounded-full border-2 border-black z-20"></div>
+        </div>
+
+        <div class="flex flex-col leading-tight">
+          <span class="text-white font-bold text-lg tracking-wide">Rtflix</span>
+          <span class="text-xs text-gray-400 -mt-1">Xiters Studio</span>
+        </div>
+      </div>
+
+      <!-- Nav -->
+      <nav class="hidden md:flex items-center gap-8 text-sm text-gray-300">
+        <a href="#" class="hover:text-white transition">Home</a>
+        <a href="#" class="hover:text-white transition">Projects</a>
+        <a href="#" class="hover:text-white transition">Services</a>
+        <a href="#" class="hover:text-white transition">Contact</a>
+      </nav>
+
+    </div>
+  </header>
+
+  <!-- ================= HERO ================= -->
+  <main class="flex-1 flex items-center justify-center px-6 py-20">
+    <div class="text-center max-w-3xl">
+      <h1 class="text-5xl md:text-6xl font-bold leading-tight">
+        Build Smarter With  
+        <span class="bg-gradient-to-r from-purple-400 to-blue-500 bg-clip-text text-transparent">
+          Rtflix Xiters
+        </span>
+      </h1>
+      <p class="mt-6 text-gray-400 text-lg">
+        Premium digital experiences for creators, coders, and futuristic brands.
+      </p>
+
+      <div class="mt-10 flex items-center justify-center gap-4">
+        <button class="px-6 py-3 rounded-2xl bg-white text-black font-semibold hover:scale-105 transition">
+          Get Started
+        </button>
+        <button class="px-6 py-3 rounded-2xl border border-white/10 text-white hover:bg-white/5 transition">
+          View Work
+        </button>
+      </div>
+    </div>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="w-full border-t border-white/10 bg-black px-6 py-6">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+
+      <!-- Footer Brand -->
+      <div class="flex items-center gap-3">
+        <img 
+          src="https://pps.whatsapp.net/m1/v/t24/An8i16Y27DJg-P4bdPot8gYg-r-uvoIcOec-Pijh6W660_tR-hUmtbG8t7qw1BcqO9JOIHxzHNOWblmMLIr-_oLNuGlqcKyvRHOR1iCYrCW1ktPUpko7bmR6fMW_qeKYlqIffTwDlS7y-qlIXyc?stp=dst-jpg_tt6&ccb=10-5&oh=01_Q5Aa3QFETy6xozKB4UKlbwTpTuBKeXj88U4BFe0uNBMpGXciKw&oe=694C59CD&_nc_sid=5e03e0&_nc_cat=103"
+          alt="Rtflix Xiters Logo"
+          class="w-9 h-9 rounded-xl object-cover border border-white/10"
+        />
+        <div>
+          <p class="text-sm font-semibold text-white">Rtflix Xiters</p>
+          <p class="text-xs text-gray-500">Built for creators & coders</p>
+        </div>
+      </div>
+
+      <!-- Footer Links -->
+      <div class="flex items-center gap-6 text-sm text-gray-500">
+        <a href="#" class="hover:text-white transition">Privacy</a>
+        <a href="#" class="hover:text-white transition">Terms</a>
+        <a href="#" class="hover:text-white transition">Support</a>
+      </div>
+
+      <!-- Copyright -->
+      <p class="text-xs text-gray-600">
+        © 2026 Rtflix Xiters. All rights reserved.
+      </p>
+
+    </div>
+  </footer>
+
+</body>
+</html>
